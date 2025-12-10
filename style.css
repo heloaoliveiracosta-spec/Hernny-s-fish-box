@@ -148,10 +148,10 @@ footer {
   text-align: left;
 }
 .banner {
-  width: 100%; /* ocupa toda a largura da tela */
-  height: 600px; /* altura do banner */
-  background-image: url('banner/banner.png'); /* caminho pra sua imagem */
-  background-size: cover; /* a imagem preenche todo o espaço, cortando se necessário */
-  background-position: center; /* centraliza a imagem */
-  background-repeat: no-repeat; /* evita repetição da imagem */
+  width: 100%;
+  height: 600px;
+  background-image: url('banner.png'); /* só o nome do arquivo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
