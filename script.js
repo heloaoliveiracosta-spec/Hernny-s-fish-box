@@ -4,12 +4,16 @@ function pescar() {
     "🐠 Peixe colorido",
     "🐡 Baiacu raro",
     "🦈 Tubarão lendário 👑",
+    "🦐 Um belo camarão!",
+    "🦀 um caranguejo?",
+    "🐋 muito grande!",
     "🌊 Nada foi pescado..."
+    
   ];
 
   const sorteio = peixes[Math.floor(Math.random() * peixes.length)];
   document.getElementById("resultado").innerText = sorteio;
-}
+
 .escondido {
   display: none;
 }
