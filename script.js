@@ -28,3 +28,7 @@ function pescar() {
     transform: translateY(0);
   }
 }
+function toggleSobre() {
+  const sobre = document.getElementById("sobre");
+  sobre.classList.toggle("escondido");
+}
