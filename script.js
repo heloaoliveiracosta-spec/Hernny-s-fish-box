@@ -1,6 +1,3 @@
-console.log("JS carregado!");
-alert("JS funcionando!");
-
 function pescar() {
   const peixes = [
     "🐟 Peixe comum",
