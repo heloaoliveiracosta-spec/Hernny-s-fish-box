@@ -5,33 +5,15 @@ function pescar() {
     "🐡 Baiacu raro",
     "🦈 Tubarão lendário 👑",
     "🦐 Um belo camarão!",
-    "🦀 um caranguejo?",
-    "🐋 muito grande!",
+    "🦀 Um caranguejo?!",
+    "🐋 Muito grande!",
     "🌊 Nada foi pescado..."
-    
   ];
 
   const sorteio = peixes[Math.floor(Math.random() * peixes.length)];
   document.getElementById("resultado").innerText = sorteio;
-
-.escondido {
-  display: none;
 }
 
-.sobre {
-  animation: surgir 0.4s ease;
-}
-
-@keyframes surgir {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 function toggleSobre() {
   const sobre = document.getElementById("sobre");
   sobre.classList.toggle("escondido");
